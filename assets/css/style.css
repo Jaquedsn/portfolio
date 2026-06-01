@@ -1,0 +1,39 @@
+/* Remove espaçamentos padrão */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #481658;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #c9b5d4;
+    padding: 20px 30px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 30px;
+
+    list-style: none;
+}
+
+.navlinks a{
+    color: #5c1374;
+    text-decoration: none;
+
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navlinks a:hover{
+    color: black;
+}
