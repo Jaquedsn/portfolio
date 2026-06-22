@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #481658;
+    background-color: black;
 }
 
 .navbar {
@@ -14,8 +14,15 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #c9b5d4;
+    background-color: #481658;
     padding: 20px 30px;
+
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+
+    border-radius: 50px;
+    box-shadow: 0 15px 25px -10px rgba(120, 45, 145, 0.7);
 }
 
 .navlinks {
@@ -26,7 +33,7 @@ body {
 }
 
 .navlinks a{
-    color: #5c1374;
+    color: #c9b5d4;
     text-decoration: none;
 
     font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
